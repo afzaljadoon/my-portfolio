@@ -33,7 +33,7 @@ const projects = [
         title: "Project #3",
         description: "A loan calculator for monthly payments based on amount, interest, and term.",
         links: {
-            github: "https://github.com/huzaifa898/client-pro1",
+            github: "https://github.com/afzaljadoon/loan_calculator",
         },
     },
     {
@@ -41,7 +41,7 @@ const projects = [
         title: "Project #4",
         description: "An app for adding, viewing, and managing a personalized book collection.",
         links: {
-            github: "https://github.com/huzaifa898/client-pro2",
+            github: "https://github.com/afzaljadoon/Booklist",
         },
     },
     {
@@ -57,7 +57,7 @@ const projects = [
         title: "Project #6",
         description: "A GitHub user finder displaying user profile, avatar, and repositories.",
         links: {
-            github: "https://github.com/huzaifa898/my-task",
+            github: "https://github.com/afzaljadoon/Github_User",
         },
     },
 ];
