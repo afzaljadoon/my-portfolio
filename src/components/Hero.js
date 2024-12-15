@@ -100,7 +100,7 @@ const Hero = () => {
 
               <motion.a
                 whileHover={{ scale: 1.2 }}
-                href="https://instagram.com/your-instagram-i.huzaifo5"
+                href="https://www.instagram.com/afzal_khan_jadoon/profilecard/?igsh=MXdyOXB1eHV1Y2Jsag=="
                 target="_blank"
                 rel="noopener noreferrer"
               >

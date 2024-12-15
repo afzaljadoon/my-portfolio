@@ -1,61 +1,61 @@
 import React from 'react';
-// import project8 from '../Assets/project8.PNG';
-// import project9 from "../Assets/project9.PNG";
-// import project10 from "../Assets/project10.PNG";
-// import project12 from "../Assets/project12.PNG";
-// import project13 from "../Assets/project13.PNG";
-// import project14 from  "../Assets/project14.PNG";
+import project8 from '../image/project8.png' 
+import project9 from '../image/project9.png'
+import project10 from '../image/project10.png'
+import project11 from '../image/project11.png'
+import project12 from '../image/project12.png'
+import project13 from '../image/project13.png'
 
 import { AiOutlineGithub } from 'react-icons/ai';
 import Reveal from './Reveal';
 
 const projects = [
     {
-        // img: project8,
+        img: project8,
         title: "Project #1",
-        description: "This is my final year project Investor & Enterprenur Recommender  System",
+        description: " Blockchain Voting System: Secure and Transparent Elections",
 
         links: {
-            site: "https://huzaifa898.github.io/fyp",
-            github: "https://github.com/huzaifa898/fyp",
+            site: "https://afzaljadoon.github.io/myfyp",
+            github: "https://github.com/afzaljadoon/myfyp",
         },
     },
     {
-        // img: project9,
+        img: project9,
         title: "Project #2",
-        description: "A fullstack application for Jobless people their they find their jobs",
+        description: "Netflix Clone: Interface for Browsing and Streaming Shows",
         links: {
-            github: "https://github.com/huzaifa898/jobs-seeker",
+            github: "https://github.com/afzaljadoon/Netflix_clone",
         },
     },
     {
-        // img: project10,
+        img: project10,
         title: "Project #3",
-        description: "A Client Project For a Company related to Business industry and constructions",
+        description: "A loan calculator for monthly payments based on amount, interest, and term.",
         links: {
             github: "https://github.com/huzaifa898/client-pro1",
         },
     },
     {
-        // img: project12,
+        img: project12,
         title: "Project #4",
-        description: "An application for biscuits agency who sell biscuits online",
+        description: "An app for adding, viewing, and managing a personalized book collection.",
         links: {
             github: "https://github.com/huzaifa898/client-pro2",
         },
     },
     {
-        // img: project13,
+        img: project13,
         title: "Project #5",
-        description: "A project for a freelancer friend who is a web developer",
+        description: "Movie List: Add Title, Director, and Release Year",
         links: {
             github: "https://github.com/huzaifa898/aness",
         },
     },
     {
-        // img: project14,
+        img: project11,
         title: "Project #6",
-        description: "Another project for a freelancer friend who is a web developer",
+        description: "A GitHub user finder displaying user profile, avatar, and repositories.",
         links: {
             github: "https://github.com/huzaifa898/my-task",
         },

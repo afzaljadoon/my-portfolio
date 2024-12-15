@@ -14,21 +14,21 @@ const Footer = () => {
         <div className="text-center font-serif">
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
           <p className="text-gray-400 flex items-center justify-center gap-2 mb-2">
-            <FaEnvelope /> yousafxaihuzaifa@gmail.com
+            <FaEnvelope /> jadoonafzal027@gmail.com
           </p>
           <p className="text-gray-400 flex items-center justify-center gap-2 mb-4">
-            <FaPhoneAlt /> +923439442998
+            <FaPhoneAlt /> +923149961015
           </p>
           
           {/* Social Media Links */}
           <div className="flex gap-4 justify-center">
-            <a href="https://www.linkedin.com/in/huzaifa-yousafzai-827bab236/" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-blue-500">
+            <a href="https://www.linkedin.com/in/mir-afzal-khan-131519252/" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-blue-500">
               <AiFillLinkedin />
             </a>
-            <a href="https://github.com/huzaifa898" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-blue-500">
+            <a href="https://github.com/afzaljadoon" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-blue-500">
               <AiFillGithub />
             </a>
-            <a href="https://facebook.com/HuzaifaYousafzai" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-blue-500">
+            <a href="https://www.facebook.com/ayan.ailkhan.5?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-blue-500">
               <AiFillFacebook />
             </a>
           </div>
