@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className='fixed top-0 left-0 w-full bg-gray-900 backdrop-blur-md z-50'>
           <div className='max-w-[1300px] mx-auto flex justify-between text-gray-200 text-xl items-center px-12 h-20 font-serif'>
 
-              <h2>Huzaifa Yousafzai</h2>
+              <h2>Mir Afzal khan</h2>
 
               <ul className='hidden md:flex gap-12 z-10 font-serif cursor-pointer'>
                   {/* Adding underline effect */}

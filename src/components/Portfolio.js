@@ -1,17 +1,17 @@
 import React from 'react';
-import project8 from '../Assets/project8.PNG';
-import project9 from "../Assets/project9.PNG";
-import project10 from "../Assets/project10.PNG";
-import project12 from "../Assets/project12.PNG";
-import project13 from "../Assets/project13.PNG";
-import project14 from  "../Assets/project14.PNG";
+// import project8 from '../Assets/project8.PNG';
+// import project9 from "../Assets/project9.PNG";
+// import project10 from "../Assets/project10.PNG";
+// import project12 from "../Assets/project12.PNG";
+// import project13 from "../Assets/project13.PNG";
+// import project14 from  "../Assets/project14.PNG";
 
 import { AiOutlineGithub } from 'react-icons/ai';
 import Reveal from './Reveal';
 
 const projects = [
     {
-        img: project8,
+        // img: project8,
         title: "Project #1",
         description: "This is my final year project Investor & Enterprenur Recommender  System",
 
@@ -21,7 +21,7 @@ const projects = [
         },
     },
     {
-        img: project9,
+        // img: project9,
         title: "Project #2",
         description: "A fullstack application for Jobless people their they find their jobs",
         links: {
@@ -29,7 +29,7 @@ const projects = [
         },
     },
     {
-        img: project10,
+        // img: project10,
         title: "Project #3",
         description: "A Client Project For a Company related to Business industry and constructions",
         links: {
@@ -37,7 +37,7 @@ const projects = [
         },
     },
     {
-        img: project12,
+        // img: project12,
         title: "Project #4",
         description: "An application for biscuits agency who sell biscuits online",
         links: {
@@ -45,7 +45,7 @@ const projects = [
         },
     },
     {
-        img: project13,
+        // img: project13,
         title: "Project #5",
         description: "A project for a freelancer friend who is a web developer",
         links: {
@@ -53,7 +53,7 @@ const projects = [
         },
     },
     {
-        img: project14,
+        // img: project14,
         title: "Project #6",
         description: "Another project for a freelancer friend who is a web developer",
         links: {

@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic3 from '../Assets/profpic3.png';
+import profile from '../image/profile.jpeg'
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import {
@@ -15,7 +15,7 @@ import {
   DiReact,
 } from "react-icons/di";
 import { motion } from "framer-motion";
-import cv from '../Assets/HuzaifaCV.pdf' // Add the path to your CV file
+import cv from '../image/Afzalkhan_CV.pdf' // Add the path to your CV file
 
 const Hero = () => {
   return (
@@ -47,7 +47,7 @@ const Hero = () => {
             className="text-gray-200 md:text-5xl text-3xl tracking-tight mb-4 font-serif"
           >
             I AM <br />
-            <span className="text-purple-500">HUZAIFA YOUSAFZAI</span>
+            <span className="text-purple-500">MIR AFZAL KHAN</span>
           </motion.p>
 
           <motion.p
@@ -69,7 +69,7 @@ const Hero = () => {
           >
             <motion.a
               href={cv} // Link to the CV file
-              download="Huzaifa_Yousafzai_CV.pdf" // Specify the downloaded file name
+              download="Afzalkhan_CV.pdf" // Specify the downloaded file name
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)",
@@ -82,7 +82,7 @@ const Hero = () => {
             <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
               <motion.a
                 whileHover={{ scale: 1.2 }}
-                href="https://github.com/huzaifa898"
+                href="https://github.com/afzaljadoon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -91,7 +91,7 @@ const Hero = () => {
 
               <motion.a
                 whileHover={{ scale: 1.2 }}
-                href="https://www.linkedin.com/in/huzaifa-yousafzai-827bab236/"
+                href="https://www.linkedin.com/in/mir-afzal-khan-131519252/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -111,7 +111,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.img
-          src={profilepic3}
+          src={profile}
           className="w-[300px] md:w-[450px] object-cover border-none"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}

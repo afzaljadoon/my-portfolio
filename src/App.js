@@ -1,10 +1,20 @@
-import Contact from "./components/Contact";
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Portfolio from './components/Portfolio';
+import Skills from './components/Skills'
 
 function App() {
   return (
-    <div >
-      <Contact />
-    </div>
+    <>
+    <Navbar/>
+    <Hero/>
+    <Skills/>
+    <Portfolio/>
+    <Contact/>
+    <Footer/>
+    </>
   );
 }
 
