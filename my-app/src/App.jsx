@@ -3,17 +3,22 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import "./index.css";
+import HeroSection from "./components/hero-section";
+import AboutSection from "./components/about-section";
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="bg-white p-8 rounded-2xl shadow-xl text-center">
-        <h1 className="text-3xl font-bold">Tailwind is working 🎉</h1>
-        <p className="mt-3 text-gray-600">If this is styled, you’re good.</p>
-        <button className="mt-6 px-4 py-2 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700">
-          Test Button
-        </button>
-      </div>
+    <div className="min-h-screen bg-background text-foreground relative">
+      {/* <MouseFollower />
+      <Navbar /> */}
+      <main>
+        <HeroSection />
+        <AboutSection />
+        {/* <SkillsSection />
+        <ProjectsSection />
+        <ContactSection /> */}
+      </main>
+      {/* <Footer /> */}
     </div>
   );
 }
