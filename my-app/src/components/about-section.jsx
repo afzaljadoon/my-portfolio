@@ -95,12 +95,10 @@ export default function AboutSection() {
               boundaries of what's possible.
             </p>
             <p>
-              Beyond the lines of code, I enjoy [mention a unique hobby, e.g.,
-              exploring generative art, composing electronic music, or
-              competitive gaming]. I am a firm believer in clean, maintainable
-              code, pixel-perfect design, and a user-centric approach to
-              development. Let's collaborate and create something truly
-              extraordinary!
+              Beyond the lines of code, I enjoy watching cricket.. I am a firm
+              believer in clean, maintainable code, pixel-perfect design, and a
+              user-centric approach to development. Let's collaborate and create
+              something truly extraordinary!
             </p>
           </div>
         </div>

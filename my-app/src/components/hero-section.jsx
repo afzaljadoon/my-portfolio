@@ -139,9 +139,9 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-5xl mx-auto">
         <h1
           ref={headingRef}
-          className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight mb-4 text-foreground drop-shadow-lg"
+          className="text-5xl md:text-7xl lg:text-7xl font-extrabold leading-tight mb-4 text-foreground drop-shadow-lg"
         >
-          Hello, I'm <span className="text-primary">Your Name</span>
+          Hello, I'm <span className="text-primary">Mir Afzal khan</span>
         </h1>
         <p
           ref={subheadingRef}
