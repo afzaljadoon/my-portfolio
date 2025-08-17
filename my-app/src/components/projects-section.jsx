@@ -5,67 +5,70 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
+import Cablink from "../images/cablink.png";
+import Lesfemmes from "../images/lesfemmes.png";
+import Blockchain from "../images/project8.png";
+import Jigsaw from "../images/jigsaw.png";
+import Dashtime from "../images/HRM_1.png";
+import GithubUser from "../images/Github_user.png";
 
 const projects = [
   {
     id: 1,
-    title: "Quantum Commerce",
-    description:
-      "High-performance e-commerce: real-time inventory, secure payments, dynamic catalog, and blazing fast UX.",
-    image: "/placeholder.svg?height=320&width=560",
-    tech: ["Next.js", "JavaScript", "Tailwind", "Stripe", "PostgreSQL"],
-    liveLink: "#",
-    githubLink: "#",
+    title: "Blockchain Voting System",
+    description: "Blockchain Voting System: Secure and Transparent Elections.",
+    image: Blockchain,
+    tech: ["React.js", "JavaScript", "Tailwind", "Stripe"],
+    liveLink: "https://afzaljadoon.github.io/myfyp/",
+    githubLink: "https://github.com/afzaljadoon/myfyp",
   },
   {
     id: 2,
-    title: "AuraFlow Task Manager",
+    title: "LesFemmes",
     description:
-      "Intuitive tasking with collaboration, drag-and-drop, notifications, and real-time sync.",
-    image: "/placeholder.svg?height=320&width=560",
-    tech: ["React", "Redux", "Firebase", "GSAP", "WebSockets"],
-    liveLink: "#",
+      "LesFemmes: Add Products, Vendors, and Categories for Centralized Catalog Management",
+    image: Lesfemmes,
+    tech: ["React", "Redux", "GSAP", "WebSockets"],
+    liveLink: "https://les.dominioninc.org/",
     githubLink: "#",
   },
   {
     id: 3,
-    title: "Synthetica Portfolio",
-    description:
-      "A cinematic portfolio showcasing animations, performance, and creative code.",
-    image: "/placeholder.svg?height=320&width=560",
+    title: "Jigsaw",
+    description: "Dynamic Next.js site, dashboard-managed pages & sections.",
+    image: Jigsaw,
     tech: ["Next.js", "Tailwind", "GSAP", "MDX"],
-    liveLink: "#",
+    liveLink: "https://jigsaw-web.jigsawtech.co/",
     githubLink: "#",
   },
   {
     id: 4,
-    title: "Chronicle Blog Platform",
+    title: "DASH TIME",
     description:
-      "Rich publishing with markdown, editor, media, and advanced SEO.",
-    image: "/placeholder.svg?height=320&width=560",
+      "HR System: Add Employee, Department, and Joining Date—Streamlined Onboarding & Compliance",
+    image: Dashtime,
     tech: ["Next.js", "GraphQL", "Prisma", "Apollo", "AWS S3"],
-    liveLink: "#",
+    liveLink: "https://dashtime.ae/",
     githubLink: "#",
   },
   {
     id: 5,
-    title: "DataViz Dashboard",
-    description:
-      "An interactive data visualization dashboard for analyzing complex datasets with dynamic charts and filters.",
-    image: "/placeholder.svg?height=320&width=560",
-    tech: ["React", "D3.js", "Chart.js", "Python (Flask)", "REST"],
+    title: "Cablink",
+    description: "Find and book taxis with real-time matching and options.",
+    image: Cablink,
+    tech: ["React", "D3.js", "Chart.js", "Formik", "Yup"],
     liveLink: "#",
     githubLink: "#",
   },
   {
     id: 6,
-    title: "AI Chatbot Interface",
+    title: "Github User Finder",
     description:
-      "A sleek and responsive user interface for an AI-powered chatbot, supporting multiple conversation modes.",
-    image: "/placeholder.svg?height=320&width=560",
+      "A GitHub user finder displaying user profile, avatar, and repositories.",
+    image: GithubUser,
     tech: ["Next.js", "Tailwind", "WebSockets", "AI API"],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://github.com/afzaljadoon/Github_User",
+    githubLink: "https://github.com/afzaljadoon/Github_User",
   },
 ];
 

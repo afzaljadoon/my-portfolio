@@ -77,12 +77,12 @@ export default function AboutSection() {
           >
             <p className="mb-6">
               Hello! I'm{" "}
-              <span className="text-primary font-medium">[Your Name]</span>, a
-              dedicated web developer with a profound passion for crafting
+              <span className="text-primary font-medium">Mir Afzal khan</span>,
+              a dedicated web developer with a profound passion for crafting
               dynamic, intuitive, and visually stunning digital experiences. My
-              journey in web development began [X years ago] when I was
-              captivated by the endless possibilities of bringing ideas to life
-              on the internet.
+              journey in web development began 1+ year ago when I was captivated
+              by the endless possibilities of bringing ideas to life on the
+              internet.
             </p>
             <p className="mb-6">
               I specialize in building cutting-edge web applications using
