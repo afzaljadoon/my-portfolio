@@ -8,12 +8,14 @@ import AboutSection from "./components/about-section";
 import SkillsSection from "./components/skills-section";
 import ProjectsSection from "./components/projects-section";
 import ContactSection from "./components/contact-section";
+import MouseFollower from "./components/mouse-follower";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <div className="min-h-screen bg-background text-foreground relative">
-      {/* <MouseFollower />
-      <Navbar /> */}
+      <MouseFollower />
+      <Navbar />
       <main>
         <HeroSection />
         <AboutSection />
