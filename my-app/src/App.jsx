@@ -10,6 +10,7 @@ import ProjectsSection from "./components/projects-section";
 import ContactSection from "./components/contact-section";
 import MouseFollower from "./components/mouse-follower";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <ProjectsSection />
         <ContactSection />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
