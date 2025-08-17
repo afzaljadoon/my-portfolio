@@ -5,6 +5,8 @@ import "./App.css";
 import "./index.css";
 import HeroSection from "./components/hero-section";
 import AboutSection from "./components/about-section";
+import SkillsSection from "./components/skills-section";
+import ProjectsSection from "./components/projects-section";
 
 function App() {
   return (
@@ -14,9 +16,9 @@ function App() {
       <main>
         <HeroSection />
         <AboutSection />
-        {/* <SkillsSection />
+        <SkillsSection />
         <ProjectsSection />
-        <ContactSection /> */}
+        {/* <ContactSection /> */}
       </main>
       {/* <Footer /> */}
     </div>
